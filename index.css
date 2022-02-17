@@ -242,4 +242,166 @@
   margin: 0 5%;
   color: #5e5d4b;
 }
+
+#careers {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+#careers h3 {
+  color: #5e5d4bff;
+  text-transform: uppercase;
+  font-size: 3vw;
+  font-weight: 400;
+  margin-bottom: 3%;
+}
+
+#careers p {
+  color: #5e5d4b;
+  font-size: 1.4vw;
+  line-height: 2.2vw;
+  font-weight: 400;
+  margin-bottom: 3%;
+}
+
+#careers .current-jobs h3 {
+  font-size: 2vw;
+  text-transform: capitalize;
+}
+
+#careers .current-jobs p {
+  color: #d0d83a;
+}
+
+#pre-contact {
+  padding: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#pre-contact .tweets {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#pre-contact .tweets h3 {
+  color: #5e5d4bff;
+  font-size: 2.5vw;
+  font-weight: 400;
+}
+
+#pre-contact .tweets .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+#pre-contact .tweets .title p {
+  color: #7e9baa;
+  font-size: 1.5vw;
+}
+
+#pre-contact .tweets .title svg {
+  color: #00a2f5;
+  width: 2vw;
+  height: 2vw;
+  margin: 0 5%;
+}
+
+#pre-contact .tweets .handle {
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+#pre-contact .tweets .handle p {
+  color: #d0d83a;
+  font-size: 1.5vw;
+}
+
+#pre-contact .tweets p {
+  font-size: 1.5vw;
+  color: #5e5d4bff;
+}
+
+#pre-contact .tweets img {
+  margin-top: 10%;
+  width: 100%;
+}
+
+#pre-contact .form {
+  width: 50%;
+}
+
+#pre-contact .form h3 {
+  color: #5e5d4bff;
+  font-size: 2.5vw;
+  font-weight: 400;
+  margin-left: 10%;
+}
+
+#pre-contact .form form {
+  width: 100%;
+  background-color: #7e9baa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 7%;
+  margin-top: 5%;
+}
+
+#pre-contact .form form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3% 0;
+}
+
+#pre-contact .form form label span {
+  color: #fff;
+  padding: 1% 0;
+  font-size: 1.2vw;
+}
+
+#pre-contact .form form label input {
+  padding: 7% 2%;
+  background-color: #748f99;
+  border: 0.1vw solid #fff;
+  outline: none;
+  color: #fff;
+  font-size: 1.5vw;
+  font-weight: 300;
+}
 /*# sourceMappingURL=index.css.map */
