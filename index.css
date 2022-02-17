@@ -7,7 +7,7 @@
 
 #hero {
   width: 100%;
-  height: 90vh;
+  height: auto;
   background-image: url("images/p1_1.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -98,5 +98,26 @@
   height: 1vw;
   margin: 0 0.5%;
   color: #5e5d4b;
+}
+
+#about {
+  padding: 10%;
+  background-color: #7e9baa;
+  text-align: center;
+}
+
+#about h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3vw;
+  font-weight: 400;
+  margin-bottom: 3%;
+}
+
+#about p {
+  color: #fff;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  font-weight: 400;
 }
 /*# sourceMappingURL=index.css.map */
