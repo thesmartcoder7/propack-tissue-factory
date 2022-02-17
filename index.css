@@ -120,4 +120,126 @@
   line-height: 2vw;
   font-weight: 400;
 }
+
+#shop {
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#shop h2 {
+  text-transform: uppercase;
+  font-size: 3vw;
+  font-weight: 400;
+  color: #5e5d4b;
+  margin-bottom: 3%;
+}
+
+#shop img {
+  width: 30vw;
+}
+
+#shop .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5%;
+  width: 100%;
+}
+
+#shop .slider .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  margin: 0 1%;
+}
+
+#shop .slider .product img {
+  width: 100%;
+}
+
+#shop .slider .product h3 {
+  color: #5e5d4b;
+  font-weight: 400;
+  padding: 7% 5%;
+  font-size: 1.5vw;
+}
+
+#shop .slider .product p {
+  color: #5e5d4b;
+  font-weight: 400;
+  font-size: 2vw;
+  margin-bottom: 2%;
+}
+
+#shop .slider .product button {
+  width: 100%;
+  color: #fff;
+  padding: 10% 0;
+  margin-top: 5%;
+  border: none;
+  background-color: #d0d83a;
+  font-size: 1vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.3vw;
+}
+
+#shop .slider svg {
+  width: 7vw;
+  height: 7vw;
+  color: #5e5d4b;
+}
+
+#shop .dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#shop .dots .active {
+  color: #d0d83a;
+}
+
+#shop .dots svg {
+  width: 2vw;
+  height: 2vw;
+  margin: 0 5%;
+  color: #5e5d4b;
+}
 /*# sourceMappingURL=index.css.map */
