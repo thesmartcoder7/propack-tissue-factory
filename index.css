@@ -404,4 +404,90 @@
   font-size: 1.5vw;
   font-weight: 300;
 }
+
+#contact {
+  background-color: #d0d83a;
+}
+
+#contact h3 {
+  color: #5e5d4bff;
+  text-transform: uppercase;
+  font-size: 3vw;
+  font-weight: 400;
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#contact .info {
+  padding: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#contact .info .logo {
+  width: 30%;
+  border-right: solid 0.15vw #fff;
+  padding: 4%;
+}
+
+#contact .info .logo img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#contact .info .details {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 5%;
+}
+
+#contact .info .details div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 1% 0;
+}
+
+#contact .info .details div svg {
+  width: 3vw;
+  height: auto;
+  color: #fff;
+  margin: 0 3%;
+}
+
+#contact .info .details div p {
+  color: #777528;
+  font-size: 2vw;
+}
+
+#contact .info .details p {
+  margin: 2% 3%;
+  color: #777528;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+}
 /*# sourceMappingURL=index.css.map */
